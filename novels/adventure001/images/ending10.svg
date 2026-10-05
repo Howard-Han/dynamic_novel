@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 280" width="560" height="280" role="img" aria-label="破浪駛向遠方日出的探測船與逐漸遠去的島影">
+  <defs>
+    <linearGradient id="e10sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#28374d"/><stop offset="0.55" stop-color="#8b6949"/><stop offset="1" stop-color="#dfa45c"/>
+    </linearGradient>
+    <linearGradient id="e10sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b98b52"/><stop offset="0.35" stop-color="#4a5a68"/><stop offset="1" stop-color="#1d2a35"/>
+    </linearGradient>
+    <radialGradient id="e10sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe2a8"/><stop offset="0.5" stop-color="#f0b164" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#f0b164" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="560" height="280" fill="url(#e10sky2)"/>
+  <circle cx="392" cy="148" r="66" fill="url(#e10sun)"/>
+  <circle cx="392" cy="150" r="24" fill="#ffe9bd" opacity="0.95"/>
+  <g fill="#d8c3a2" opacity="0.35">
+    <ellipse cx="120" cy="56" rx="72" ry="10"/><ellipse cx="210" cy="82" rx="54" ry="7"/>
+    <ellipse cx="450" cy="62" rx="64" ry="9"/>
+  </g>
+  <rect y="150" width="560" height="130" fill="url(#e10sea)"/>
+  <path d="M28 146 L64 118 L82 132 L104 106 L140 146 Z" fill="#2a2f39" opacity="0.85"/>
+  <path d="M0 148 L36 130 L58 148 Z" fill="#2a2f39" opacity="0.6"/>
+  <g stroke="#e9c68e" stroke-width="2" opacity="0.5" fill="none">
+    <path d="M300 178 q40 -6 80 0"/><path d="M340 196 q48 -6 96 0"/><path d="M290 214 q56 -8 112 0"/>
+  </g>
+  <g transform="translate(150 0)">
+    <path d="M40 232 L300 232 L272 268 L72 268 Z" fill="#2f3943"/>
+    <rect x="70" y="204" width="150" height="28" fill="#3b4752"/>
+    <rect x="104" y="180" width="82" height="26" fill="#47525d"/>
+    <g fill="#ffe2a8" opacity="0.85">
+      <rect x="114" y="188" width="14" height="10"/><rect x="138" y="188" width="14" height="10"/><rect x="162" y="188" width="14" height="10"/>
+    </g>
+    <rect x="196" y="150" width="20" height="54" fill="#5a4a3c"/>
+    <path d="M196 150 q10 -26 20 0 Z" fill="#6b5a45"/>
+    <rect x="244" y="188" width="6" height="44" fill="#3b4752"/>
+    <path d="M250 190 q22 6 30 16 l-30 6 Z" fill="#c9a45c" opacity="0.8"/>
+  </g>
+  <path d="M150 262 q80 -16 150 -2 q60 12 120 -4" fill="none" stroke="#e7d3ae" stroke-width="5" opacity="0.5" stroke-linecap="round"/>
+  <path d="M120 274 q110 -18 210 -2 q70 10 150 -8" fill="none" stroke="#e7d3ae" stroke-width="3" opacity="0.32" stroke-linecap="round"/>
+</svg>

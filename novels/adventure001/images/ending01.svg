@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 280" width="560" height="280" role="img" aria-label="寒夜海岸邊將熄的營火">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0c111c"/><stop offset="0.7" stop-color="#151621"/><stop offset="1" stop-color="#1a1712"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a2330"/><stop offset="1" stop-color="#10151d"/>
+    </linearGradient>
+    <radialGradient id="ember" cx="0.5" cy="0.6" r="0.6">
+      <stop offset="0" stop-color="#c9713c" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#7a3d1e" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#7a3d1e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="560" height="280" fill="url(#sky)"/>
+  <circle cx="452" cy="58" r="26" fill="#c9c4b2" opacity="0.45"/>
+  <circle cx="444" cy="52" r="24" fill="#0c111c" opacity="0.9"/>
+  <rect y="150" width="560" height="62" fill="url(#sea)"/>
+  <path d="M0 176 q40 -5 80 0 t80 0 t80 0 t80 0 t80 0 t80 0" fill="none" stroke="#2b3a4c" stroke-width="1.5" opacity="0.6"/>
+  <path d="M0 210 L560 196 L560 280 L0 280 Z" fill="#221a10"/>
+  <path d="M60 250 Q90 236 130 244 L126 258 Q92 252 66 260 Z" fill="#171008"/>
+  <path d="M410 240 q22 -8 44 4 l-6 14 q-20 -8 -40 -4 Z" fill="#171008"/>
+  <ellipse cx="290" cy="246" rx="52" ry="12" fill="url(#ember)"/>
+  <path d="M272 246 L286 239 L282 248 Z" fill="#8a4a24"/>
+  <path d="M294 248 L310 239 L303 250 Z" fill="#6e3a1c"/>
+  <circle cx="288" cy="242" r="2.2" fill="#e08a4a" opacity="0.85"/>
+  <circle cx="297" cy="238" r="1.4" fill="#e08a4a" opacity="0.5"/>
+  <path d="M290 232 q7 -14 -2 -28 q11 9 9 28" fill="none" stroke="#4a4438" stroke-width="2" opacity="0.32"/>
+</svg>

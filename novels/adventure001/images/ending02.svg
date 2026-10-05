@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 280" width="560" height="280" role="img" aria-label="黑夜營火旁抵住後腦的槍口">
+  <defs>
+    <radialGradient id="e2flash" cx="0.62" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#ffcf8a" stop-opacity="0.85"/>
+      <stop offset="0.4" stop-color="#c4762f" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#c4762f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="e2ember" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#b4581f" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#b4581f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="560" height="280" fill="#0b0906"/>
+  <ellipse cx="140" cy="228" rx="70" ry="16" fill="url(#e2ember)"/>
+  <path d="M120 230 l16 -8 l-4 10 Z" fill="#6b3416"/>
+  <path d="M146 232 l18 -9 l-8 11 Z" fill="#54290f"/>
+  <ellipse cx="348" cy="150" rx="150" ry="110" fill="url(#e2flash)"/>
+  <path d="M300 250 q8 -74 46 -92 q18 -9 30 4 q14 15 4 34 q-8 16 -26 18 l-4 36 Z" fill="#14100b"/>
+  <circle cx="352" cy="120" r="24" fill="#14100b"/>
+  <rect x="392" y="122" width="74" height="13" rx="3" fill="#1c1a17"/>
+  <rect x="380" y="118" width="20" height="21" rx="4" fill="#232019"/>
+  <circle cx="383" cy="128" r="5" fill="#000"/>
+  <path d="M466 124 q22 -10 40 2" fill="none" stroke="#2a2620" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="378" cy="128" r="9" fill="#ffd79a" opacity="0.55"/>
+  <circle cx="378" cy="128" r="18" fill="#ffd79a" opacity="0.14"/>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 280" width="560" height="280" role="img" aria-label="離岸的船甲板上冒著硝煙的槍口">
+  <defs>
+    <linearGradient id="e9sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c3a48"/><stop offset="0.7" stop-color="#4d4b42"/><stop offset="1" stop-color="#6b5a45"/>
+    </linearGradient>
+    <linearGradient id="e9sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a3b47"/><stop offset="1" stop-color="#16222b"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="280" fill="url(#e9sky)"/>
+  <rect y="126" width="560" height="74" fill="url(#e9sea)"/>
+  <g stroke="#3d5361" stroke-width="1.6" opacity="0.6" fill="none">
+    <path d="M0 146 q36 -6 72 0 t72 0 t72 0 t72 0 t72 0 t72 0 t72 0"/>
+    <path d="M0 168 q40 6 80 0 t80 0 t80 0 t80 0 t80 0 t80 0"/>
+  </g>
+  <path d="M40 132 q42 -12 92 -2 l-6 12 q-44 -8 -86 2 Z" fill="#232c33" opacity="0.7"/>
+  <rect y="196" width="560" height="84" fill="#3b3226"/>
+  <g stroke="#241d14" stroke-width="2" opacity="0.7">
+    <path d="M0 216 H560"/><path d="M0 240 H560"/><path d="M0 264 H560"/>
+  </g>
+  <rect y="188" width="560" height="10" fill="#57493a"/>
+  <path d="M60 196 q28 -40 74 -34 q34 5 30 34 Z" fill="#191410" opacity="0.85"/>
+  <path d="M96 216 q40 -8 98 10 q40 14 22 30 q-60 6 -110 -16 q-24 -12 -10 -24 Z" fill="#5c1f18" opacity="0.55"/>
+  <g transform="rotate(-9 400 150)">
+    <rect x="394" y="146" width="90" height="16" rx="4" fill="#20242a"/>
+    <rect x="368" y="140" width="30" height="28" rx="5" fill="#2b3037"/>
+    <path d="M484 148 q26 -10 48 4" fill="none" stroke="#343a42" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="372" cy="154" r="6" fill="#0a0c0e"/>
+  </g>
+  <g fill="#c9ccd1" opacity="0.5">
+    <circle cx="352" cy="146" r="11"/><circle cx="332" cy="134" r="14"/><circle cx="310" cy="118" r="17"/>
+    <circle cx="288" cy="98" r="20" opacity="0.6"/><circle cx="266" cy="74" r="22" opacity="0.35"/>
+  </g>
+</svg>

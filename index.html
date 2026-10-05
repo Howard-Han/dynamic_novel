@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>韓哥的小說庫</title>
+<meta name="description" content="多結局互動式小說：每一個選擇，都會把故事推向不同的終點。">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- 首頁 -->
+<main id="view-home" class="view">
+  <header class="site-head">
+    <h1 class="site-title">韓哥的小說庫</h1>
+    <div class="rule"></div>
+    <p class="site-intro">歡迎來到韓哥的小說庫——這裡的每一本書，結局都由你決定。走進書架，挑一本小說，代替主角做出每一個抉擇；你的每一個選擇，都會把故事推向不同的終點。</p>
+  </header>
+
+  <section class="shelf-section" aria-labelledby="shelf-heading">
+    <h2 id="shelf-heading" class="visually-hidden">小說挑選</h2>
+    <div id="category-tabs" class="tabs" role="tablist" aria-label="小說類別"></div>
+    <div id="shelf" class="shelf"></div>
+  </section>
+</main>
+
+<!-- 小說訊息框 -->
+<div id="modal-backdrop" class="modal-backdrop" hidden>
+  <div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <h2 id="modal-title" class="modal-title"></h2>
+    <div class="rule rule-sm"></div>
+    <p id="modal-intro" class="modal-intro"></p>
+    <div id="modal-endings" class="ending-list" hidden></div>
+    <div class="modal-actions">
+      <button type="button" id="btn-toggle-endings" class="btn btn-ghost">展示所有結局名稱</button>
+      <button type="button" id="btn-start" class="btn btn-primary">開始閱讀</button>
+    </div>
+  </div>
+</div>
+
+<!-- 小說頁面 -->
+<main id="view-reader" class="view" hidden>
+  <div class="reader-head">
+    <button type="button" id="btn-back" class="link-back">← 返回書架</button>
+    <div id="reader-novel-title" class="reader-novel-title"></div>
+  </div>
+  <article id="reader-body" class="reader-body"></article>
+</main>
+
+<!-- 過場動畫 -->
+<div id="curtain" class="curtain" aria-hidden="true">
+  <div id="curtain-title" class="curtain-title"></div>
+</div>
+
+<script src="novels/registry.js"></script>
+<script src="assets/js/engine.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 280" width="560" height="280" role="img" aria-label="洞窟中裂開的陷阱深坑與坑底的尖木樁">
+  <defs>
+    <radialGradient id="e5torch" cx="0.2" cy="0.3" r="0.7">
+      <stop offset="0" stop-color="#e2a05a" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#8a5726" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="e5pit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0806"/><stop offset="1" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="280" fill="#120e0a"/>
+  <path d="M0 0 L560 0 L560 66 q-80 22 -160 8 q-90 -16 -180 6 q-110 22 -220 -4 Z" fill="#1c1611"/>
+  <rect width="560" height="280" fill="url(#e5torch)"/>
+  <path d="M0 190 L150 190 L168 206 L0 206 Z" fill="#241c14"/>
+  <path d="M560 182 L420 182 L400 200 L560 200 Z" fill="#241c14"/>
+  <path d="M150 190 L168 206 L400 200 L420 182 L560 200 L560 280 L0 280 L0 206 Z" fill="url(#e5pit)"/>
+  <g fill="#2e2216">
+    <path d="M186 280 L196 214 L206 280 Z"/><path d="M222 280 L232 206 L242 280 Z"/>
+    <path d="M258 280 L268 212 L278 280 Z"/><path d="M294 280 L304 202 L314 280 Z"/>
+    <path d="M330 280 L340 214 L350 280 Z"/><path d="M366 280 L376 204 L386 280 Z"/>
+  </g>
+  <g fill="#3a2a1c" opacity="0.85">
+    <path d="M204 280 L212 226 L220 280 Z"/><path d="M276 280 L284 222 L292 280 Z"/><path d="M348 280 L356 224 L364 280 Z"/>
+  </g>
+  <path d="M0 196 q120 -8 168 10" fill="none" stroke="#4a3a26" stroke-width="2" opacity="0.5"/>
+  <g stroke="#6b5636" stroke-width="2" fill="none" opacity="0.75">
+    <path d="M76 120 l14 -10 l14 10 l-14 10 Z"/>
+    <path d="M90 130 l0 16"/>
+  </g>
+  <path d="M40 60 q10 40 -6 74" fill="none" stroke="#6b5636" stroke-width="2.5" opacity="0.5"/>
+</svg>
